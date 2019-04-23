@@ -2,6 +2,11 @@
 
 [Full Table of Contents](../index.md)
 
+## Subinterpreters and Multi-core Parallelism
+
+Author: [Eric Snow](../authors/ericsnowcurrently.md)
+
+
 ```
 Caveat:  This reference is intended to be accurate.  I probably have some small
          details wrong but count on all the important things being correct.
@@ -14,10 +19,6 @@ Caveat:  This reference is intended to be sufficiently complete, though not
          If you think I missed something then please leave a comment.
 ```
 
-
-## Subinterpreters and Multi-core Parallelism
-
-Author: [Eric Snow](../authors/ericsnowcurrently.md)
 
 ### Table of Contents
 
