@@ -4,7 +4,7 @@ This repo holds the various informational documents I've written.
 It is effectively equivalent to blog posts I've written explaining
 technical topics.
 
-[Contents](src/index.md)
+[Table of Contents](src/index.md)
 
 Feel free to open issues (e.g. for typos, errors, omissions) or even
 pull requests.  Thanks!
