@@ -16,6 +16,8 @@ Caveat:  This reference is intended to be sufficiently complete, though not
 
 ## An Overview of CPython's Architecture
 
+Author: [Eric Snow](../authors/ericsnowcurrently.md)
+
 ### Table of Contents
 
 * ...
