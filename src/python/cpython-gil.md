@@ -22,7 +22,41 @@ Caveat:  This reference is intended to be sufficiently complete, though not
 
 ### Table of Contents
 
-* ...
+* [what is the GIL?](cpython-gil.md#what-is-the-gil)
+* [why do we need a GIL?](cpython-gil.md#why-do-we-need-a-gil)
+* [costs and benefits](cpython-gil.md#costs-and-benefits)
+* [effect and perception](cpython-gil.md#effect-and-perception)
+* [working around the GIL](cpython-gil.md#working-around-the-gil)
+* [past attempts to remove the GIL](cpython-gil.md#past-attempts-to-remove-the-gil)
+* [a GIL-free future?](cpython-gil.md#a-gil-free-future)
+
+### What is the GIL?
+
+...
+
+### Why Do We Need a GIL?
+
+...
+
+### Costs and Benefits
+
+...
+
+### Effect and Perception
+
+...
+
+### Working Around the GIL
+
+...
+
+### Past Attempts to Remove the GIL
+
+...
+
+### A GIL-free Future?
+
+...
 
 ---
 

@@ -22,7 +22,36 @@ Caveat:  This reference is intended to be sufficiently complete, though not
 
 ### Table of Contents
 
-* ...
+* [what is threading?](cpython-threading.md#what-is-threading)
+* [hardware and OS threads](cpython-threading.md#hardware-and-os-threads)
+* [hazards and mitigations](cpython-threading.md#hazards-and-mitigations)
+* [Python threads](cpython-threading.md#python-threads)
+* [the GIL](cpython-threading.md#the-gil)
+* [use cases and alternatives](cpython-threading.md#use-cases-and-alternatives)
+
+### What is Threading?
+
+...
+
+### Hardware and OS Threads
+
+...
+
+### Hazards and Mitigations
+
+...
+
+### Python Threads
+
+...
+
+### The GIL
+
+...
+
+### Use Cases and Alternatives
+
+...
 
 ---
 

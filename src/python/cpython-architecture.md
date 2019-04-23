@@ -22,7 +22,36 @@ Caveat:  This reference is intended to be sufficiently complete, though not
 
 ### Table of Contents
 
-* ...
+* [the layers](cpython-architecture.md#the-layers)
+* [other key components](cpython-architecture.md#other-key-components)
+* [GC and refcounting](cpython-architecture.md#gc-and-refcounting)
+* [the eval loop](cpython-architecture.md#the-eval-loop)
+* [the runtime's lifecycle](cpython-architecture.md#the-runtimes-lifecycle)
+* [the codebase](cpython-architecture.md#the-codebase)
+
+### The Layers
+
+...
+
+### Other Key Components
+
+...
+
+### GC and Refcounting
+
+...
+
+### The Eval Loop
+
+...
+
+### The Runtime's Lifecycle
+
+TBD
+
+### The Codebase
+
+TBD
 
 ---
 
