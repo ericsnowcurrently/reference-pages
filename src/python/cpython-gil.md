@@ -32,31 +32,70 @@ Caveat:  This reference is intended to be sufficiently complete, though not
 
 ### What is the GIL?
 
-...
+* “Global Interpreter Lock”
+* Low-level mutex shared by all threads in the process
+* Ensures only 1 Python thread is executing *Python* code at a time
+    * Acquired at beginning of eval loop
+    * Released and re-acquired every few times through the eval loop
+    * Optionally released / re-acquired (manually) in C code
+* Guards against internal races
+    * internal shared resources
+    * objects
+
+https://docs.python.org/3/c-api/init.html#thread-state-and-the-global-interpreter-lock
 
 ### Why Do We Need a GIL?
 
-...
+Prevent race conditions:
+* on internal CPython state
+* on objects
 
 ### Costs and Benefits
 
-...
+Costs:
+* multi-core parallelism of *Python* code
+* ???
+
+Benefits:
+* cheaper than fine-grained locks
+* lower contention for global resources
+* simpler eval loop implementation
+* simpler object implementation
+* simpler C-API implementation
 
 ### Effect and Perception
 
-...
+Who does it really affect?
+* users with threaded, CPU-bound *Python* code (relatively few people)
+* basically no one else
+
+Why?  C implementation releases the GIL around IO and CPU-intensive code.
+
+So why does the GIL get such a bad wrap?
+* lack of understanding
+* experience with other programming languages
+* haters gonna hate
 
 ### Working Around the GIL
 
-...
+C-extension modules:
+* rewrite CPU-bound code in C
+* release the GIL around that code
 
 ### Past Attempts to Remove the GIL
 
-...
+* ???
+* ???
+* Gilectomy
+* other Python implementations
+    * unladen swallow
+    * ...
 
 ### A GIL-free Future?
 
 ...
+
+See [Improving the C-API](capi-improvements.md) and [Subinterpreters and Multi-core Parallelism](multicore-subinterpreters.md).
 
 ---
 

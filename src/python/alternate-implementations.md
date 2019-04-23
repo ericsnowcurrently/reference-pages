@@ -37,7 +37,42 @@ TBD
 
 ### The Implementations
 
-...
+|                     impl                   | born | active? | Python  |   lang    |    key    |
+| ------------------------------------------ | ---- | ------- | ------- | --------- | --------- |
+| [CPython](https://www.python.org/)         | 1989 |   yes   |   3.7   |    C      | reference |
+| [PyPy](https://pypy.org/)                  |      |   yes   |   3.6   |  RPython  |    JIT    |
+| [MicroPython](http://www.micropython.org/) |      |   yes   |  ~3.4+  |    C      | embedded  |
+| [Jython](https://www.jython.org/)          |      |  ~yes   |   2.7   |   Java    |    Java   |
+| [IronPython](https://ironpython.net/)      |      |  ~yes   |   2.7   |    C#     |    .NET   |
+|                 ----                       |      |         |         |           |           |
+| Unladen Swallow                            |      |   no    |         |    C      |   Clang   |
+| ...                                        |      |   no    |         |           |           |
+
+* web-oriented (e.g. [pyodide, batavia](https://github.com/ericsnowcurrently/pyweb/wiki/6-Prior-Art))?
+
+See also: [PyPY w/ STM](http://doc.pypy.org/en/latest/stm.html).
+
+Compatibility:
+
+|    impl     |    C-API?     |
+| ----------- | ------------- |
+| CPython     |     yes       |
+| PyPy        | CFFI, cpyext  |
+| ...w/ STM   |               |
+| MicroPython |     no?       |
+| Jython      |     JyNI      |
+| IronPython  |     yes?      |
+
+Implementation Details:
+
+|    impl     |  GIL? | refcount? |
+| ----------- |  ---- | --------- |
+| CPython     |   yes |    yes    |
+| PyPy        |   yes |    no     |
+| ...w/ STM   |   no  |    no     |
+| MicroPython |  ~yes |    no     |
+| Jython      |   no  |    no     |
+| IronPython  |   no  |    no     |
 
 ### CPython
 

@@ -39,19 +39,45 @@ Caveat:  This reference is intended to be sufficiently complete, though not
 
 ### Hazards and Mitigations
 
+#### Race Conditions
+
 ...
+* https://docs.google.com/presentation/d/1_qbtSCAS9KhxVH77np106D0gq1wjHUxrVFHgZuxBupc#slide=id.g5683b3a755_0_213
+* https://docs.google.com/presentation/d/1_qbtSCAS9KhxVH77np106D0gq1wjHUxrVFHgZuxBupc#slide=id.g5683b3a755_0_352
+
+#### Deadlock
+
+TBD
+
+#### Headaches
+
+TBD
 
 ### Python Threads
 
 ...
 
+What Happens When a Python Thread is Started?
+1. create a `PyThreadState` under current interpreter
+1. create an OS thread
+1. associate the OS thread ID with the `PyThreadState`
+1. start up the eval loop
+1. finalize the Python thread when the eval loop stops
+1. exit the OS thread
+
 ### The GIL
 
-...
+See [The GIL](cpython-gil.md).
+
+* “Global Interpreter Lock”
+* only one eval loop at a time
+* guards internal state and objects
+* work around it via the C-API
 
 ### Use Cases and Alternatives
 
-...
+* async / await
+* multi-processing
 
 ---
 
