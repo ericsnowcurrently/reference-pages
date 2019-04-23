@@ -1,6 +1,4 @@
-# Technical Reference Pages
-
-[Full Table of Contents](../index.md)
+# [Technical Reference Pages](../index.md)
 
 ## The GIL
 
