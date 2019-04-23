@@ -20,8 +20,11 @@ Caveat:  This reference is intended to be sufficiently complete, though not
 ### Table of Contents
 
 * [An Overview of CPython's Architecture](cpython-architecture.md)
-* ...
-
+* [Threading in CPython](cpython-threading.md)
+* [The GIL](cpython-gil.md)
+* [Python Implementations](alternate-implementations.md)
+* [Improving the C-API](capi-improvements.md)
+* [Subinterpreters and Multi-core Parallelism](multicore-subinterpreters.md)
 
 ---
 

@@ -1,5 +1,7 @@
 # Technical Reference Pages
 
+[Full Table of Contents](../index.md)
+
 ```
 Caveat:  This reference is intended to be accurate.  I probably have some small
          details wrong but count on all the important things being correct.
@@ -13,15 +15,12 @@ Caveat:  This reference is intended to be sufficiently complete, though not
 ```
 
 
+## Subinterpreters and Multi-core Parallelism
+
+Author: [Eric Snow](../authors/ericsnowcurrently.md)
+
 ### Table of Contents
 
-* [Python](python/index.md)
-   * [An Overview of CPython's Architecture](python/cpython-architecture.md)
-   * [Threading in CPython](python/cpython-threading.md)
-   * [The GIL](python/cpython-gil.md)
-   * [Python Implementations](python/alternate-implementations.md)
-   * [Improving the C-API](python/capi-improvements.md)
-   * [Subinterpreters and Multi-core Parallelism](python/multicore-subinterpreters.md)
 * ...
 
 ---
