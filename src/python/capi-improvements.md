@@ -4,6 +4,8 @@
 
 ## Improving the C-API
 
+*Ways CPython's C-API can be improved, plus current projects to do so*
+
 Author: [Eric Snow](../authors/ericsnowcurrently.md)
 
 

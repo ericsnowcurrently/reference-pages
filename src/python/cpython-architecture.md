@@ -4,6 +4,8 @@
 
 ## An Overview of CPython's Architecture
 
+*The layers and components of CPython*
+
 Author: [Eric Snow](../authors/ericsnowcurrently.md)
 
 

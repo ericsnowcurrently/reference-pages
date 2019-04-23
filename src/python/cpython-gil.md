@@ -4,6 +4,8 @@
 
 ## The GIL
 
+*All about CPython's Global Interpreter Lock*
+
 Author: [Eric Snow](../authors/ericsnowcurrently.md)
 
 

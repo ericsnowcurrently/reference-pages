@@ -4,6 +4,8 @@
 
 ## Threading in CPython
 
+*How threading works, particularly in CPython*
+
 Author: [Eric Snow](../authors/ericsnowcurrently.md)
 
 

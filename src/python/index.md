@@ -4,6 +4,8 @@
 
 ## Python
 
+*Pages related to the Python programming language*
+
 
 ```
 Caveat:  This reference is intended to be accurate.  I probably have some small

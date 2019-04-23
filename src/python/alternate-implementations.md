@@ -4,6 +4,8 @@
 
 ## Python Implementations
 
+*A review of the various implementations of Python*
+
 Author: [Eric Snow](../authors/ericsnowcurrently.md)
 
 

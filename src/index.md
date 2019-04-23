@@ -1,5 +1,8 @@
 # Technical Reference Pages
 
+*Explanations of various technical topics.*
+
+
 ```
 Caveat:  This reference is intended to be accurate.  I probably have some small
          details wrong but count on all the important things being correct.

@@ -4,6 +4,8 @@
 
 ## Subinterpreters and Multi-core Parallelism
 
+*All about subinterpreters, especially how they can help with multi-core Python*
+
 Author: [Eric Snow](../authors/ericsnowcurrently.md)
 
 
