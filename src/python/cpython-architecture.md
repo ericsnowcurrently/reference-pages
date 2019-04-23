@@ -1,5 +1,7 @@
 # Technical Reference Pages
 
+[Full Table of Contents](../index.md)
+
 ```
 Caveat:  This reference is intended to be accurate.  I probably have some small
          details wrong but count on all the important things being correct.
@@ -12,13 +14,12 @@ Caveat:  This reference is intended to be sufficiently complete, though not
          If you think I missed something then please leave a comment.
 ```
 
+## An Overview of CPython's Architecture
 
 ### Table of Contents
 
-* [Python](python/index.md)
-   * [An Overview of CPython's Architecture](python/cpython-architecture.md)
-   * ...
 * ...
+
 
 
 ---
